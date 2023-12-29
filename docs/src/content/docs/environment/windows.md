@@ -1,0 +1,31 @@
+---
+title: Windows setup
+description: Setup for the Windows development environment
+---
+
+Development environment for Windows 11 is based on:
+
+- winget to install applications (if available)
+- WSL
+
+## Winget
+
+For `winget`, some hang might happen if you are not in the latest version.
+Ensure that the Microsoft store software is up-to-date.
+
+On the terminal, run `winget upgrade --all` to update all out-of-date already installed applications.
+
+The following packages would be installed with `winget`:
+
+- `Microsoft.WindowsTerminal` (see configuration in [Terminal Configuration](/tool/terminal))
+- `Microsoft.PowerShell`
+- `Git.Git`
+- `JetBrains.IntelliJIDEA.Community`
+- `Microsoft.VSCode`
+- `Mozilla.Firefox`
+- `Google.Chrome`
+
+:::note[TODO]
+It would be useful to prepare a [winget config file]() to automatize further the installation of the apps.
+:::
+
