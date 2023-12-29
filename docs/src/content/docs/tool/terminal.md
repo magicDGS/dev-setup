@@ -3,6 +3,12 @@ title: Windows Terminal
 description: Windows Terminal Configuration
 ---
 
+## Installation
+
+```pwsh
+winget install Microsoft.WindowsTerminal
+```
+
 ## Profiles
 
 The default profile for Windows Terminal should be WSL.

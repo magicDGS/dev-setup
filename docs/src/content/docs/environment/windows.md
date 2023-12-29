@@ -39,9 +39,12 @@ Ensure that the Microsoft store software is up-to-date.
 
 On the terminal, run `winget upgrade --all` to update all out-of-date already installed applications.
 
+:::note[TODO]
+It would be useful to prepare a [winget config file](https://learn.microsoft.com/en-us/windows/package-manager/configuration/) to automatize further the installation of the apps instead of doing it manually.
+:::
+
 The following packages would be installed with `winget`:
 
-- `Microsoft.WindowsTerminal` (see configuration in [Terminal Configuration](/tool/terminal))
 - `Microsoft.PowerShell`
 - `Git.Git`
 - `JetBrains.IntelliJIDEA.Community`
@@ -50,7 +53,10 @@ The following packages would be installed with `winget`:
 - `Mozilla.Firefox`
 - `Google.Chrome`
 
-:::note[TODO]
-It would be useful to prepare a [winget config file](https://learn.microsoft.com/en-us/windows/package-manager/configuration/) to automatize further the installation of the apps.
+:::tip
+Other software should be also installed with `winget` but it is not listed here as it might require extra configuration.
 :::
 
+## Tools
+
+- [Terminal](/tool/terminal)
