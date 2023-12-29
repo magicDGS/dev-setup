@@ -35,6 +35,7 @@ The following packages would be installed with `winget`:
 - `Git.Git`
 - `JetBrains.IntelliJIDEA.Community`
 - `Microsoft.VSCode`
+- `Docker.DockerDesktop`
 - `Mozilla.Firefox`
 - `Google.Chrome`
 
