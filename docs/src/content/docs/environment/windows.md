@@ -39,6 +39,6 @@ The following packages would be installed with `winget`:
 - `Google.Chrome`
 
 :::note[TODO]
-It would be useful to prepare a [winget config file]() to automatize further the installation of the apps.
+It would be useful to prepare a [winget config file](https://learn.microsoft.com/en-us/windows/package-manager/configuration/) to automatize further the installation of the apps.
 :::
 
