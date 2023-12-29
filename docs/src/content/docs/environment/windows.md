@@ -16,6 +16,8 @@ Turn on the following Windows Features:
 - Windows Hypervisor Platform
 - WIndows Subsystem Linux
 
+For the File Explorer, change the options to show hidden files and file-extensions.
+
 ## WSL
 
 Windows Subsystem Linux is installed with `wsl --install`, which installs directly Ubuntu.
