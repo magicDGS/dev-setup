@@ -8,6 +8,19 @@ Development environment for Windows 11 is based on:
 - winget to install applications (if available)
 - WSL
 
+## Windows Features
+
+Turn on the following Windows Features:
+
+- Virtual Machine Platform
+- Windows Hypervisor Platform
+- WIndows Subsystem Linux
+
+## WSL
+
+Windows Subsystem Linux is installed with `wsl --install`, which installs directly Ubuntu.
+It requires re-start and after it setup the user-name and password.
+
 ## Winget
 
 For `winget`, some hang might happen if you are not in the latest version.
