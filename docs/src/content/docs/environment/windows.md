@@ -46,7 +46,6 @@ It would be useful to prepare a [winget config file](https://learn.microsoft.com
 The following packages would be installed with `winget`:
 
 - `Microsoft.PowerShell`
-- `Git.Git`
 - `JetBrains.IntelliJIDEA.Community`
 - `Microsoft.VSCode`
 - `Docker.DockerDesktop`
@@ -60,3 +59,4 @@ Other software should be also installed with `winget` but it is not listed here 
 ## Tools
 
 - [Terminal](/tool/terminal)
+- [Git](/tool/git)
