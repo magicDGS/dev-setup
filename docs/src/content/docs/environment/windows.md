@@ -47,7 +47,6 @@ It would be useful to prepare a [winget config file](https://learn.microsoft.com
 
 The following packages would be installed with `winget`:
 
-- `JetBrains.IntelliJIDEA.Community`
 - `Docker.DockerDesktop`
 - `Mozilla.Firefox`
 - `Google.Chrome`
@@ -60,5 +59,7 @@ Other software should be also installed with `winget` but it is not listed here 
 
 - [Terminal](/dev-setup/tool/terminal)
 - [Git](/dev-setup/tool/git)
+- [Java](/dev-setup/tool/java)
+- [IntelliJ](/dev-setup/tool/intellij)
 - [NodeJS](/dev/tool/nodejs)
 - [VS Code](/dev/tool/vscode)
