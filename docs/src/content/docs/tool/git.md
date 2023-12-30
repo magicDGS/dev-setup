@@ -23,4 +23,6 @@ sudo apt install git
 git config --global user.name "GitHub full name"
 git config --global user.email "Github email"
 git config --global user.username "GitHub user-name"
+# configure also the windows credential manager to have the same
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe"
 ```
