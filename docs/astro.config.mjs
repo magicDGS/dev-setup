@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://magicDGS.github.io',
+	base: 'dev-setup',
 	integrations: [
 		starlight({
 			title: 'dev-setup',
