@@ -57,5 +57,5 @@ Other software should be also installed with `winget` but it is not listed here 
 
 ## Tools
 
-- [Terminal](/tool/terminal)
-- [Git](/tool/git)
+- [Terminal](/dev-setup/tool/terminal)
+- [Git](/dev-setup/tool/git)
