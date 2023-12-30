@@ -9,7 +9,7 @@ Git is installed in both Windows and WSL.
 
 ### Windows
 
-```pwsh
+```powershell
 winget install Git.Git
 git config --global user.name "GitHub full name"
 git config --global user.email "Github email"
@@ -21,7 +21,7 @@ Note that if a clone is setup on WSL, an fatal error can happen in Windows:
 `fatal: detected dubious ownership in repository at '//wsl.localhost/Ubuntu/...`,
 suggesting to add the path with the following command to the global config:
 
-```pwsh
+```powershell
 git config --global --add safe.directory '%(prefix)///wsl.localhost/Ubuntu/*
 ```
 

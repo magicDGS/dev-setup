@@ -8,7 +8,7 @@ description: Terminal Configuration
 I use the windows terminal for both PowerShell and WSL.
 To install:
 
-```pwsh
+```powershell
 winget install Microsoft.WindowsTerminal
 ```
 
@@ -24,13 +24,13 @@ To re-organize the profiles on the settings and new tabs, open the settings.json
 
 The new PowerShell installation should be performed
 
-```pwsh
+```powershell
 winget install Microsoft.PowerShell
 ```
 
 For styling [OhMyPosh](https://ohmyposh.dev/) is installed:
 
-```pwsh
+```powershell
 winget install JanDeDobbeleer.OhMyPosh
 ```
 
