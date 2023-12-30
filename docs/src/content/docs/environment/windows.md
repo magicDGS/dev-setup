@@ -45,7 +45,6 @@ It would be useful to prepare a [winget config file](https://learn.microsoft.com
 
 The following packages would be installed with `winget`:
 
-- `Microsoft.PowerShell`
 - `JetBrains.IntelliJIDEA.Community`
 - `Microsoft.VSCode`
 - `Docker.DockerDesktop`
