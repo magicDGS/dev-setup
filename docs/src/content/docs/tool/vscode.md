@@ -15,5 +15,11 @@ Then open and
 
 ## Extensions
 
+### Web development
+
 - Astro (`astro-build.astro-vscode`)
+- MDX (`unifiedjs.vscode-mdx`)
+
+### Tooling
+
 - Codeium (`codeium.codeium`)
