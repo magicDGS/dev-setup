@@ -48,6 +48,7 @@ It would be useful to prepare a [winget config file](https://learn.microsoft.com
 The following packages would be installed with `winget`:
 
 - `Docker.DockerDesktop`
+- `7zip.7zip`
 - `Mozilla.Firefox`
 - `Google.Chrome`
 
