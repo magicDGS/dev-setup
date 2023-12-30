@@ -22,12 +22,14 @@ For the File Explorer, change the options to show hidden files and file-extensio
 
 Windows Subsystem Linux is installed with `wsl --install`, which installs directly Ubuntu.
 It requires re-start and after it setup the user-name and password.
+I use the same user-name as the Windows machine to simplify configuration.
 
 After installation, perform the following to have it up-to-date:
 
 ```bash
 sudo apt update
 sudo apt upgrade
+sudo apt install curl zip # tools without configuration
 ```
 
 Then enter in the `\\wsl$\` folder and map the network drive to the `W:` drive.

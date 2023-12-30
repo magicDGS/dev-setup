@@ -57,5 +57,34 @@ I use ZSH instead of bash in WSL. To install:
 
 ```bash
 sudo apt install zsh
+chsh -s $(which zsh) # change defaul shell
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s # install also ohmyposh
 ```
 
+Starting the zsh shell, configure using the wizard the history settings and the default completion system.
+
+To share themes with the Windows machine and do not require to download again,
+add to the `~/.zshrc` the following command:
+
+```bash
+eval "$(oh-my-posh init zsh --config /mnt/c/Users/$USER/AppData/Local/Programs/oh-my-posh/themes/kali.omp.json)"
+```
+
+:::note
+The $USER variable can be used here because the same name was used for WSL and Windows host machine.
+This might differ if not configured like that.
+
+Also, the `kali` theme is hardcoded as it is the one used before.
+:::
+
+For the `ls` command, `exa` is used for a more modern feeling:
+
+```bash
+sudo apt install exa
+```
+
+To add custom aliases, copy the `dotfiles/.aliases` from the repository and add to the `.zshrc` the following line:
+
+```bash
+[ -f ~/.aliases ] && source ~/.aliases
+```

@@ -1,0 +1,9 @@
+# ls override
+alias ls='exa'
+alias ll='ls -laF --icons'
+alias la='ls -a'
+
+# grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
