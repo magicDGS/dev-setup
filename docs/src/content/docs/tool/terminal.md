@@ -14,7 +14,9 @@ winget install Microsoft.WindowsTerminal
 
 ## Profiles
 
-The default profile for Windows Terminal should be WSL.
+The default profile for Windows Terminal should be PowerShell, because it is easier to move to WSL (by typing `wsl`).
+Also, Windows filesystem is too slow on the mounted drive, making `git` to take 2s for a simple `status` command
+instead of few milliseconds on PowerShell.
 
 To re-organize the profiles on the settings and new tabs, open the settings.json and re-order the objects there.
 

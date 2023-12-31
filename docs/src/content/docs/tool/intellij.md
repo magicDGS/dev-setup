@@ -23,7 +23,11 @@ See [Java tool setup](/dev-setup/tools/java.md) for more information on how to s
 
 ## Sources
 
-Sources can be located on WSL, but should be imported/created on the mapped network drive.
+It is recommended to import/create the source code for IntelliJ on the Windows filesystem,
+as I/O operations are slow if they are done through WSL from the Windows application.
+
+Sources can also be located on WSL if I/O is not a problem,
+but should be imported/created on the mapped network drive.
 Otherwise, IntelliJ will try to use the support for WSL and will hang.
 
 ## Plug-ins
