@@ -11,6 +11,19 @@ Installation is done in Windows with PowerShell.
 winget install JetBrains.IntelliJIDEA.Community
 ```
 
+:::note
+To enable the command-line launcher, the folllowing should be added to the Windows `%Path%` variable:
+
+```
+%LOCALAPPDATA%\JetBrains\%IDEA_VERSION%\bin
+```
+
+Note that you should replace the following variables`%IDEA_VERSION%` with the proper installed version
+(i.e., IntelliJ IDEA Community Edition 2023.3.2)
+
+To simplify the process when the software is updated, a %IDEA_VERSION% variable can be added to the Windows Variables and use it.
+:::
+
 ## JRE/JDK configuration
 
 :::danger
