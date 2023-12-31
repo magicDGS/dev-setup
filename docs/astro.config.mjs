@@ -8,6 +8,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'dev-setup',
+			lastUpdated: true,
+			pagination: false,
 			social: {
 				github: 'https://github.com/magicDGS/dev-setup',
 			},

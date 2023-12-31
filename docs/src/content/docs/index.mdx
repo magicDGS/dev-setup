@@ -6,27 +6,15 @@ hero:
   tagline: Personal Development Environment Setup Documentation - by <a href="https://github.com/magicDGS">@magicDGS</a>
   image:
     file: ../../assets/houston.webp
+  actions:
+    - text: Start Setup
+      link: /dev-setup/environment/getting-started
+      icon: right-arrow
+      variant: primary
+
 ---
 
-import { CardGrid, LinkCard } from '@astrojs/starlight/components'
-
-## Folder structure
-
-The folder structure for development is shared between all environments:
-the root foldes is under `documents/dev` and it contains the following folders:
-
-- `$HOME` for dotfiles
-- `$HOME/documents/dev` for overall development related code (except dotfiles)
-
-## Environments
-
-<CardGrid>
-	<LinkCard
-		title="Windows"
-		description="Setup for the Windows Environment."
-		href="/dev-setup/environment/windows"
-	/>
-</CardGrid>
+import EnvGrid from '../../components/EnvGrid.astro'
 
 ## Goals
 
@@ -37,3 +25,7 @@ to be able to reproduce it in the future. Nevertheless, the scope of this repo a
 * Have a backup of the toolstack and configuration that I did on my systems
 * Improve over time and have a historized way to recover some setup
 * Share with the community for inspiration
+
+## Environments
+
+<EnvGrid />
