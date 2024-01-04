@@ -6,14 +6,20 @@ description: Visual Studio Code configuration
 ## Installation
 
 To install, use `winget install Microsoft.VSCode`.
-Then open and   
 
 ## Settings
 
 - Activate synchronization with the github account
-- Font: "FiraCode Nerd Font" as ain font, with ligatures ON.
+- Font: "FiraCode Nerd Font" as main font, with ligatures ON.
 
 ## Extensions
+
+:::caution
+For working in WSL properly, the `WSL` extension (see below) should be installed.
+
+In such case, the extensions should also be installed in WSL side.
+Note that some extensions doesn't work there (see below).
+:::
 
 ### Web development
 
@@ -22,4 +28,5 @@ Then open and
 
 ### Tooling
 
-- Codeium (`codeium.codeium`)
+- WSL (`ms-vscode-remote.remote-wsl`)
+- Codeium (`codeium.codeium`) ⚠️Doesn't work in WSL⚠️
