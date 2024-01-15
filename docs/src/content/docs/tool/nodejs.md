@@ -33,3 +33,8 @@ Then add to the end of the profile (`notepad $PROFILE`) the following lines:
 ```powershell
 fnm env --use-on-cd | Out-String | Invoke-Expression
 ```
+
+### IDEs
+
+As we are using `fnm`, `node` is not added by default to the PATH unless we are on a terminal.
+To fix this in IDEs that does not support it, each IDE should take care of the configuration.

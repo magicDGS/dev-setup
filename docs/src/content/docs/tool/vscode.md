@@ -11,6 +11,7 @@ To install, use `winget install Microsoft.VSCode`.
 
 - Activate synchronization with the github account
 - Font: "FiraCode Nerd Font" as main font, with ligatures ON.
+- Format On Save: ON
 
 ## Extensions
 
