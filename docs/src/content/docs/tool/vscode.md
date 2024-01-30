@@ -8,7 +8,7 @@ description: Visual Studio Code configuration
 To install, use:
 
 ```powershell
-winget install Microsoft.VSCode
+winget install Microsoft.VisualStudioCode
 ```
 
 ## Settings
