@@ -31,6 +31,10 @@ Note that some extensions doesn't work there (see below).
 - Astro (`astro-build.astro-vscode`)
 - MDX (`unifiedjs.vscode-mdx`)
 
+### Python development
+
+- Python (`ms-python.python`)
+
 ### Tooling
 
 - WSL (`ms-vscode-remote.remote-wsl`)
