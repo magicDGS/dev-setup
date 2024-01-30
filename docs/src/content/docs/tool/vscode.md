@@ -5,7 +5,11 @@ description: Visual Studio Code configuration
 
 ## Installation
 
-To install, use `winget install Microsoft.VSCode`.
+To install, use:
+
+```powershell
+winget install Microsoft.VSCode
+```
 
 ## Settings
 
