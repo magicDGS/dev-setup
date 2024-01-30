@@ -61,6 +61,7 @@ Other software should be also installed with `winget` but it is not listed here 
 - [Terminal](/dev-setup/tool/terminal)
 - [Git](/dev-setup/tool/git)
 - [Java](/dev-setup/tool/java)
+- [Python](/dev-setup/tool/python)
 - [IntelliJ](/dev-setup/tool/intellij)
 - [NodeJS](/dev/tool/nodejs)
 - [VS Code](/dev/tool/vscode)
