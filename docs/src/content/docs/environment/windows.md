@@ -65,3 +65,4 @@ Other software should be also installed with `winget` but it is not listed here 
 - [IntelliJ](/dev-setup/tool/intellij)
 - [NodeJS](/dev/tool/nodejs)
 - [VS Code](/dev/tool/vscode)
+- [CLI-tools](/dev-setup/tool/cli-tools)
