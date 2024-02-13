@@ -20,8 +20,6 @@ instead of few milliseconds on PowerShell.
 
 To re-organize the profiles on the settings and new tabs, open the settings.json and re-order the objects there.
 
-### Customization
-
 ### PowerShell
 
 The new PowerShell installation should be performed
