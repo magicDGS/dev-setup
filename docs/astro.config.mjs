@@ -20,7 +20,11 @@ export default defineConfig({
 				},
 				{
 					label: 'Tools',
-					autogenerate: { directory: 'tool'}
+					autogenerate: { directory: 'tool' }
+				},
+				{
+					label: 'Utilities',
+					autogenerate: { directory: 'utilities' },
 				}
 			],
 		}),
