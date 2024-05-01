@@ -13,6 +13,7 @@ winget install Microsoft.VisualStudioCode
 
 ## Settings
 
+- View -> Appearance -> Move Primary Sidebar Right
 - Activate synchronization with the github account
 - Font: "FiraCode Nerd Font" as main font, with ligatures ON.
 - Format On Save: ON

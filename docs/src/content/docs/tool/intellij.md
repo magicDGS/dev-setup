@@ -5,24 +5,13 @@ description: Configuration for IntelliJ for Java development
 
 ## Installation
 
-Installation is done in Windows with PowerShell.
+Installation of versions is done through the [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/), which is installed with `winget`:
 
 ```poweshell
-winget install JetBrains.IntelliJIDEA.Community
+winget install JetBrains.Toolbox
 ```
 
-:::note
-To enable the command-line launcher, the folllowing should be added to the Windows `%Path%` variable:
-
-```
-%LOCALAPPDATA%\JetBrains\%IDEA_VERSION%\bin
-```
-
-Note that you should replace the following variables`%IDEA_VERSION%` with the proper installed version
-(i.e., IntelliJ IDEA Community Edition 2023.3.2)
-
-To simplify the process when the software is updated, a %IDEA_VERSION% variable can be added to the Windows Variables and use it.
-:::
+Then, from `JetBrains Toolbox`, IntelliJ IDEA should be installed and managed.
 
 ## JRE/JDK configuration
 
@@ -50,7 +39,13 @@ Sources can also be located on WSL if I/O is not a problem,
 but should be imported/created on the mapped network drive.
 Otherwise, IntelliJ will try to use the support for WSL and will hang.
 
+## Appearance
+
+* Editor -> Font: Use `Fira Code Nerd Font` and Mark `Enable Ligatures`
+
+
 ## Plug-ins
 
 - Docker
 - Codeium
+- Lombok
