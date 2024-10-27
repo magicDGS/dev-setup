@@ -17,6 +17,8 @@ winget install Microsoft.VisualStudioCode
 - Activate synchronization with the github account
 - Font: "FiraCode Nerd Font" as main font, with ligatures ON.
 - Format On Save: ON
+- Terminal: Use PowerShell7 as external shell
+- `terminal.integrated.defaultProfile.windows`: set integrated terminal to PowerShell (v7) on the Windows profile
 
 ## Extensions
 
